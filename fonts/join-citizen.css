@@ -1,0 +1,262 @@
+:root{
+  --joinus_primary_color: rgb(121, 189, 20);
+}
+/* 
+.citizens-div{
+  margin: 50px;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+ 
+} */
+
+.citizen-header, .why-salvager{
+   font-size: 4rem;
+   text-align: center;
+   margin: auto;
+}
+
+.your-duty-points li i.icons, .our-duty-points li i.icons{
+  font-size: 2.5rem;
+  padding: 5px;
+  margin-left: 5px;
+  color: var(--joinus_primary_color);
+  /* color: #ffffff; */
+}
+.your-duty-points li, .our-duty-points li{
+    list-style: none;
+}
+
+ul.your-duty-points , ul.our-duty-points{
+  padding-left: 10px;
+}
+
+.join-us-points  {
+    line-height: 3rem;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom:30px;
+}
+
+.join-us-image{
+    margin-right: 0px;
+}
+.join-us-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    flex: 1;
+    width: 100%;
+    margin: auto;
+}
+
+.col-6{
+    width: 50%;
+    text-align: center;
+}
+
+.image1, .image2, .image3{
+    width: 10rem;
+    height: 10rem;
+}
+
+/* .image1{
+    position: relative;
+    z-index: -1;
+    top: 50px;
+    right: 50px;
+} */
+
+.image2{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    z-index: 2;
+   position: absolute;
+  
+}
+
+.image3{
+    position: relative;
+    /* z-index: -1; */
+    top: 140px;
+    right: 50px;
+}
+
+.join-us-image .image3:hover {
+    z-index: 3;
+    box-shadow: 2px 2px 8px #000;
+    transition: 0.5s;
+}
+
+.btn-div{
+    margin-top: 25px;
+    margin-left: 480px;
+}
+
+.join-us-button{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    background-color: var(--joinus_primary_color);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+   
+}
+
+/* .join-us-button:hover{
+  width: 250px;
+  height: 60px;
+  font-size: 35px;
+  border: 0;
+  border-radius: 25px;
+  background-color: white;
+  color:  var(--joinus_primary_color);
+} */
+
+.images li:nth-child(1){
+    position: relative;
+    /* z-index: -1; */
+    top: 50px;
+    right: -200px;
+    background: url(images/butterfly.jpg) center center no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 10rem; 
+    /* position: absolute;
+    top: 100px;
+    right: 280px;
+    z-index: -1;
+    padding: 50px 50px;
+    background: url(butterfly.jpg) center center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px; */
+}
+
+.images li:nth-child(1):hover{
+    box-shadow: 2px 2px 8px #000;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.col-sm-6{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.card-left, .card-right{
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 500px;
+  height: 600px;
+  margin-left: 90px;
+  margin-top: 70px;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #6d6860, #0d0b0b);
+}
+
+
+.img-your-duty, .img-our-duty{
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 492px;
+  height: 200px;
+}
+
+.hr-1{
+  width: 350px;
+    margin-left: 10px;
+}
+
+.heading-your-duty, .heading-our-duty{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.why-salvager{
+  margin-top: 40px;
+}
+
+.why-join-points{
+  list-style: none;
+  margin: 30px 50px;
+  font-size: 2.5rem;
+  padding-left: 30px;
+}
+
+.why-join-points li i.icons{
+  font-size: 2.5rem;
+  padding: 5px;
+  margin-left: 5px;
+  color: var(--joinus_primary_color);
+}
+
+
+
+
+
+
+
+.covertext {
+  position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px; /* The distance between the div with the top of document */
+  left: 0px; /* Make the div full width */
+  right: 0px; /* Make the div full width */
+}
+
+.title {
+  font-family: proda;
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cover {
+display:flex;
+align-items:center;
+position:relative; 
+background: no-repeat center/cover;
+height: 390px;
+margin-bottom: 20px;
+}
+
+.hero {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/10/18/06fd8d1e-d05e-11e8-81a4-d952f5356e85_1280x720_184009.JPG?itok=KlrOyXmi);
+  background-size: 100%;
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero::after {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+height: 390px;
+/* background: linear-gradient(
+  rgba(0, 0, 0, 0.5) 0,
+  rgba(0, 0, 0, 0.3) 50%,
+  rgba(0, 0, 0, 0.1) 100%
+); */
+}
+
+.hero .container-fluid {
+z-index: 10;
+}
