@@ -1,0 +1,87 @@
+
+.mtbl{
+  margin:auto 0px auto 0px;
+      }
+      .NIa:active {
+        background-color: #a6a5a4;
+        border-radius: 5px;
+        padding: 5px inherit 5px 5px;
+        border: 1px solid #a6a5a4;
+        color: #333;
+      }
+  
+      .size {
+        font-size: 145%;
+      }
+  
+      .size:hover {
+        border: 1px solid #a6a5a4;
+        border-radius: 5px;
+        box-sizing: border-box;
+        border-width: auto;
+      }
+  .visibility .container{
+    width:80%;
+  }
+  .visibility   h2 {
+        color: #333;
+        padding-bottom: 20px;
+      }
+  .img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .img img{
+    width:70%;
+  }
+
+
+
+
+
+
+
+.covertext {
+  position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px; /* The distance between the div with the top of document */
+  left: 0px; /* Make the div full width */
+  right: 0px; /* Make the div full width */
+}
+
+.title {
+  font-family: proda;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cover {
+display:flex;
+align-items:center;
+position:relative; 
+background: no-repeat center/cover;
+height: 390px;
+margin-bottom: 20px;
+}
+
+.hero {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/10/18/06fd8d1e-d05e-11e8-81a4-d952f5356e85_1280x720_184009.JPG?itok=KlrOyXmi);
+  background-size: 100%;
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero::after {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+height: 390px;
+}
+
+.hero .container-fluid {
+z-index: 10;
+}

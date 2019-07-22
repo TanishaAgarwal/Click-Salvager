@@ -1,0 +1,203 @@
+.gallery-pic {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.gallery-pic img {
+  width: 100%;
+}
+
+.gallery-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+}
+
+.covertext {
+  position: absolute;
+  /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px;
+  /* The distance between the div with the top of document */
+  left: 0px;
+  /* Make the div full width */
+  right: 0px;
+  /* Make the div full width */
+}
+
+.title {
+  font-family: proda;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: no-repeat center/cover;
+  height: 390px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/gallery.jpg);
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 390px;
+  /* background: linear-gradient(
+    rgba(0, 0, 0, 0.5) 0,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  ); */
+}
+
+.hero .container-fluid {
+  z-index: 10;
+}
+
+
+.waste-gallery figure {
+  margin-bottom: 30px;
+}
+
+.waste-gallery figcaption {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.waste-gallery img {
+  filter: grayscale(100%) blur(3px);
+  transition: transform 0.5s, filter 0.75s;
+}
+
+.waste-gallery a:hover img {
+  transform: scale(1.25);
+  filter: none;
+}
+
+
+.main-heading {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+h2.has-line-center {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 50px;
+  line-height: 1.2em;
+}
+
+h2.has-line-center .heading-bg-text {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heading-bg-text {
+  font-size: 2.5em;
+  color: #333;
+  opacity: 0.2;
+  position: absolute;
+
+  left: 0;
+  text-align: inherit;
+  user-select: none;
+  z-index: -1;
+}
+
+.heading-bg-text,
+.text-bg,
+.text-bg-gray {
+  font-weight: 800;
+  -webkit-user-select: none;
+  cursor: default;
+  font-family: Montserrat, sans-serf;
+  text-transform: uppercase;
+}
+
+span {
+  display: inline-block;
+}
+
+.has-line-center::after,
+.has-line::after {
+  background: #eee !important;
+}
+
+.has-line-center::after {
+  margin: 15px auto 0;
+}
+
+.has-line-center::after,
+.has-line::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  /* margin: 15px 0; */
+}
+
+.explore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+  border-radius: 30px;
+  background-color: rgb(121, 189, 20);
+  border: 2px solid rgb(121, 189, 20);
+  padding: 15px 25px;
+  font-size: 22px;
+  color: white;
+}
+
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.btn:hover {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid transparent;
+  background-color: rgb(121, 189, 20);
+  ;
+  color: #ffffff;
+}
+
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  color: #ffffff;
+  outline: none;
+
+}

@@ -1,0 +1,97 @@
+@import url('http://fonts.googleapis.com/css?family=Playfair+Display');
+.container-fluid.main{
+    position: relative; /* To make the navbar positions relative to this container */
+    padding: 0;
+  }
+  .navbar{
+    padding: 0px;
+  }
+  .navbar-default {
+    background-image: none;
+    background-color: rgba(10, 10, 10, 0.5); /* Make the menu become transparent */
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    padding: 0px;
+    position: fixed; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+    top: 0;
+    left: 0;
+    right: 0;
+     z-index: 10; /*f you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+  }
+  
+  .navbar-header .row{
+      display:flex;
+      justify-content:flex-start;
+  }
+  
+  .logo{
+    margin:20px;
+    padding: 0px;
+  }
+  .navbar-default .navbar-brand {
+    font-family: "Playfair Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+      padding-top:30px;
+      font-size:20px;
+  }
+  
+  .navbar-default .navbar-nav .btn {
+      padding-top:10px;
+      margin-top:-10px;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  .nav{
+    float :right;
+    padding-bottom: 0px;
+  }
+  
+
+
+
+.dropdown-menu{
+  background-color:#292929; /* Make the menu become transparent */
+}
+
+.dropdown-menu li > a {
+  font-family: "Playfair Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  color:white;
+  padding:10px;
+  font-size: 18px;
+}
+

@@ -1,0 +1,112 @@
+
+
+
+.covertext {
+    position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+    top: 200px; /* The distance between the div with the top of document */
+    left: 0px; /* Make the div full width */
+    right: 0px; /* Make the div full width */
+  }
+  
+  .title {
+    font-family: proda;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .cover {
+  display:flex;
+  align-items:center;
+  position:relative; 
+  background: no-repeat center/cover;
+  height: 390px;
+  margin-bottom: 20px;
+  }
+  
+  .hero {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(../images/Our-Mission.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 390px;
+  }
+  
+  .hero .container-fluid {
+  z-index: 10;
+  }
+  .heading{
+  margin-top:30px;
+}
+
+h2.has-line-center {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ .heading h2 {
+  margin-top: 50px;
+  line-height: 1.2em;
+}h2.has-line-center .heading-bg-text {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.heading-bg-text {
+  font-size: 2.5em;
+  color: #333;
+  opacity: 0.2;
+  position: absolute;
+  /* top: -20px; */
+  left: 0;
+  text-align: inherit;
+  user-select: none;
+  z-index: -1;
+}
+.heading-bg-text, .text-bg, .text-bg-gray {
+  font-weight: 800;
+  -webkit-user-select: none;
+  cursor: default;
+  font-family: Montserrat, sans-serf;
+  text-transform: uppercase;
+}
+span {
+  display: inline-block;
+}.has-line-center::after, .has-line::after {
+  background: #eee !important;
+}
+.has-line-center::after {
+  margin: 15px auto 0;
+}
+.has-line-center::after, .has-line::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  /* margin: 15px 0; */
+}
+
+
+.mid-section{
+    margin-top: 90px;
+}
+
+.who-head{
+    top:40% !important;
+}
+
+.who-head .title{
+    font-family: proda; 
+    font-size: 22px !important;
+    color: rgb(230, 223, 223);
+    text-align: center;
+    padding-top: 0px;
+  }
