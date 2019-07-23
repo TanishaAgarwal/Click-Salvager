@@ -249,7 +249,7 @@
 
 
 .hero {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(https://i.ibb.co/LS0wkjD/Athena.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(../images/join_social.jpeg);
   background-attachment: fixed;
   transition: transform 0.5s ease-in-out;
 }
