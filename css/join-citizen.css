@@ -5,8 +5,8 @@
 
 .your-duty-points li i.icons,
 .our-duty-points li i.icons {
-  font-size: 2.5rem;
-  padding: 5px;
+  font-size: 1.5rem;
+  padding: 5px 10px;
   margin-left: 5px;
   color: var(--joinus_primary_color);
 }
@@ -14,6 +14,8 @@
 .your-duty-points li,
 .our-duty-points li {
   list-style: none;
+  font-size: 1.5rem;
+
 }
 
 ul.your-duty-points,
