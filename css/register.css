@@ -1,22 +1,22 @@
 /* @import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"); */
-* {
+/* * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+} */
 /* 
 html {
   background: black;
 } */
 
-body {
+/* body {
   font-family: "Open Sans";
   font-size: 18px;
   color: White;
-  /* font-smoothing: antialiased; */
-  /* font-weight: 600; */
-}
+  font-smoothing: antialiased;
+  font-weight: 600;
+} */
 
 a {
   color: #BBB;
@@ -49,7 +49,7 @@ a:hover{
   filter: blur(1px);
 }
 
-.content {
+/* .content {
   position: absolute;
   top: 15%;
   bottom: 0;
@@ -66,12 +66,12 @@ a:hover{
   -moz-box-shadow: 0 0 10px black;
   -webkit-box-shadow: 0 0 10px black;
   box-shadow: 0 0 10px black;
-}
+} */
 
-
+/* 
 .content .title {
   text-align: center;
-  /* font-size: 2.0rem; */
+  font-size: 2.0rem;
   font-weight: 400;
   padding-bottom: 0px;
   
@@ -79,7 +79,7 @@ a:hover{
 .content input {
   width: 100%;
   color: #333;
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   font-family: "Open Sans";
   margin: 10px 0px;
   border: none;
@@ -125,11 +125,11 @@ a:hover{
   color: Black;
   text-align: center;
   line-height: 20px;
-}
+} */
 /* .content span {
   font-size: 0.9rem;
 } */
-.content button {
+/* .content button {
   width: 100%;
   font-size: 20px;
   padding: 10px 10px 10px 10px;
@@ -140,59 +140,5 @@ a:hover{
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-}
-/* .content .social {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-.content .social span {
-  display: inline-block;
-  vertical-align: baseline;
-  padding: 0 20px;
-}
-.content .social span:before, .content .social span:after {
-  content: '';
-  display: block;
-  width: 500px;
-  position: absolute;
-  top: 0.9em;
-  border-top: 1px solid White;
-}
-.content .social span:before {
-  right: 75%;
-}
-.content .social span:after {
-  left: 75%;
-}
-.content .buttons {
-  width: 100%;
-  margin: 30px 0px;
-}
-.content .buttons button {
-  float: left;
-  width: 30%;
-  margin: 0px 1.5%;
-}
-.content .buttons button i {
-  padding-right: 7px;
-}
-.content .buttons button.facebook {
-  background-color: #4464B2;
-}
-.content .buttons button.twitter {
-  background-color: #28A9E0;
-}
-.content .buttons button.google {
-  background-color: #DA4735;
-}
-.content .buttons:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.content .already {
-  text-align: center;
- font-size: 0.9rem; 
 } */
+
