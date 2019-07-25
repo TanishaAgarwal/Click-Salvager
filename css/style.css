@@ -246,15 +246,33 @@ span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* .waste-gallery img {
+  filter: grayscale(100%) blur(3px);
+  transition: transform 0.5s, filter 0.75s;
+}
+
+.waste-gallery a:hover img {
+  transform: scale(1.25);
+  filter: none;
+} */
+
 .location img {
+
+  /* position: fixed; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  color: white;
   width: 80%;
   height: 80%;
+  transition: transform 0.5s, filter 0.75s;
 }
 
-.location img:hover {
-  transform: scale(1.10);
+.location img:hover{
+  transform: scale(1.1);
 }
-
 
 .join-us {
   margin-top: 30px;
