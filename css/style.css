@@ -142,7 +142,7 @@ body {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  color: rgb(121, 189, 20);
+  color: #eee;
   outline: none;
 }
 
