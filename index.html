@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/test.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/typing-text.css">
-
+  <link rel="stylesheet" href="css/preloader.css">
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -31,6 +31,13 @@
 </head>
 
 <body">
+
+  <!-------  PRELOADER  -------->
+  <div id="overlayer"></div>
+  <span class="loader">
+    <span class="loader-inner"></span>
+  </span>
+
   <div class="container-fluid main">
     <!-- NAVBAR -->
     <nav class="navbar navbar-default">
@@ -123,21 +130,21 @@
     <div class="container">
       <div class="what row">
         <div class="col-sm-4">
-         <a href="what-we-do.html" style="text-decoration: none; color:#333"> 
-          <i class="fa fa-truck do-icons" aria-hidden="true"></i>
-          <h2>Fast Service</h2>
-        </a>
-        </div>
-        <div class="col-sm-4">
           <a href="what-we-do.html" style="text-decoration: none; color:#333">
-          <i class="fa fa-building do-icons" aria-hidden="true"></i>
-          <h2>Zero Waste Model</h2>
+            <i class="fa fa-truck do-icons" aria-hidden="true"></i>
+            <h2>Fast Service</h2>
           </a>
         </div>
         <div class="col-sm-4">
           <a href="what-we-do.html" style="text-decoration: none; color:#333">
-          <i class="fa fa-leaf do-icons" aria-hidden="true"></i>
-          <h2>Pollution Free</h2>
+            <i class="fa fa-building do-icons" aria-hidden="true"></i>
+            <h2>Zero Waste Model</h2>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="what-we-do.html" style="text-decoration: none; color:#333">
+            <i class="fa fa-leaf do-icons" aria-hidden="true"></i>
+            <h2>Pollution Free</h2>
           </a>
         </div>
       </div>
@@ -146,20 +153,20 @@
       <div class="what row">
         <div class="col-sm-4">
           <a href="what-we-do.html" style="text-decoration: none; color:#333">
-          <i class="fa fa-laptop do-icons" aria-hidden="true"></i>
-          <h2>Advance Technologies</h2>
+            <i class="fa fa-laptop do-icons" aria-hidden="true"></i>
+            <h2>Advance Technologies</h2>
           </a>
         </div>
         <div class="col-sm-4">
           <a href="what-we-do.html" style="text-decoration: none; color:#333">
-          <i class="fa fa-users do-icons" aria-hidden="true"></i>
-          <h2>Independency With Employment</h2>
+            <i class="fa fa-users do-icons" aria-hidden="true"></i>
+            <h2>Independency With Employment</h2>
           </a>
         </div>
         <div class="col-sm-4">
           <a href="what-we-do.html" style="text-decoration: none; color:#333">
-          <i class="fa fa-pagelines do-icons" aria-hidden="true"></i>
-          <h2>Eco-Friendly Resources</h2>
+            <i class="fa fa-pagelines do-icons" aria-hidden="true"></i>
+            <h2>Eco-Friendly Resources</h2>
           </a>
         </div>
       </div>
@@ -212,9 +219,9 @@
         <div class="slide"><img class="mozilla-img" src="images/Shudh-Labh_Center.png"></div>
         <div class="slide"><img class="pts-img" src="images/pts.png" style="transform: scale(0.8)"></div>
         <div class="slide"><img class="mozilla-img"
-          src="images/Siddha-Development-Research-and-Consultancy-Pvt-Ltd.png"></div>
-          <div class="slide"><img class="mozilla-img" src="images/CCRA.png"></div>
-          <div class="slide"><img class="yantrix-img" src="images/Elcita-1.png"></div>
+            src="images/Siddha-Development-Research-and-Consultancy-Pvt-Ltd.png"></div>
+        <div class="slide"><img class="mozilla-img" src="images/CCRA.png"></div>
+        <div class="slide"><img class="yantrix-img" src="images/Elcita-1.png"></div>
       </div>
     </section>
   </div>
@@ -427,7 +434,7 @@
   </footer>
 
 
-
+  <script src="js/preloader.js"></script>
   <script src="js/index.js"></script>
   <script src="js/partner.js"></script>
   <script src="js/navbar.js"></script>

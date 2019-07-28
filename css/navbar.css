@@ -24,7 +24,7 @@ nav li
     vertical-align: baseline;
 }
 .container-fluid.main{
-    position: relative; /* To make the navbar positions relative to this container */
+     position: relative; /*To make the navbar positions relative to this container */
     padding: 0;
   }
   .navbar{
