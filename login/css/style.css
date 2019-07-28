@@ -257,7 +257,7 @@ p.para-style-2 a {
 
 .input span {
     font-size: 15px;
-    color: #eee;
+    color: #333;
     margin-right: 10px;
 }
 
@@ -285,14 +285,10 @@ article .submit {
     width: 100%;
 }
 
-/* article .submit:hover, .btn:hover {
-    opacity: .8;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    transition: 0.5s all;
-} */
+article .submit:hover{
+  /* font-weight: 600; */
+  background-color: rgb(90, 235, 54);
+}
 
 a.bottom-text-w3ls {
     color: #eee;
