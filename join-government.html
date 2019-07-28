@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer-second.css">
   <link rel="stylesheet" href="css/join-citizen.css">
+  <link rel="stylesheet" href="css/progress.css">
   <style>
     .hero {
       background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(images/join_govt.jpg);
@@ -37,6 +38,13 @@
 </head>
 
 <body>
+
+  <!--------  ONSCROLL PROGRESS BAR -------->
+  <div id="progress" class="progress">
+      <div class="fill"></div>
+    </div>
+
+    
   <!-- NAVBAR -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -243,6 +251,7 @@
   })();
 </script>
 <!--End of Tawk.to Script-->
+<script src="js/progress.js"></script>
   <script type="text/javascript" src="js/aos.js"></script>
   <script type="text/javascript">
     AOS.init({

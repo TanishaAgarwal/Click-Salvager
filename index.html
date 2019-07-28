@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/typing-text.css">
   <link rel="stylesheet" href="css/preloader.css">
-
+<link rel="stylesheet" href="css/progress.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -30,13 +30,20 @@
 
 </head>
 
-<body">
+<body id="mainBody" style="overflow-y:hidden !important;">
 
   <!-------  PRELOADER  -------->
   <div id="overlayer"></div>
   <span class="loader">
     <span class="loader-inner"></span>
   </span>
+
+
+  <!--------  ONSCROLL PROGRESS BAR -------->
+  <div id="progress" class="progress">
+      <div class="fill"></div>
+    </div>
+
 
   <div class="container-fluid main">
     <!-- NAVBAR -->
@@ -435,6 +442,7 @@
 
 
   <script src="js/preloader.js"></script>
+  <script src="js/progress.js"></script>
   <script src="js/index.js"></script>
   <script src="js/partner.js"></script>
   <script src="js/navbar.js"></script>
@@ -443,6 +451,7 @@
 
 
   <!--Start of Tawk.to Script-->
+  
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -459,7 +468,7 @@
   <!--End of Tawk.to Script-->
   <script>
     setTimeout(function styles() {
-      document.getElementById('mainBody').style = "overflow:hidden;";
+      document.getElementById('mainBody').style = "overflow-y:none;";
     }, 3000)
   </script>
   </body>

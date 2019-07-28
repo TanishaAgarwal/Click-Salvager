@@ -57,7 +57,7 @@
     cursor: pointer;
   }
   
-  .briefing:nth-child(even) .btn {
+  .briefing:nth-child(odd) .btn {
     width: 300px;
     font-size: 25px;
     background-color: #fff;
@@ -70,7 +70,7 @@
     color: #333;
   }
 
-  .briefing:nth-child(odd) .btn {
+  .briefing:nth-child(even) .btn {
     width: 300px;
     font-size: 25px;
     background-color: #333;
