@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer-second.css">
     <link rel="stylesheet" href="css/our-footprint.css">
-
+<link rel="stylesheet" href="css/progress.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
@@ -28,6 +28,12 @@
 </head>
 
 <body>
+
+  <!--------  ONSCROLL PROGRESS BAR -------->
+  <div id="progress" class="progress">
+        <div class="fill"></div>
+      </div>
+  
     <!-- NAVBAR -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -229,6 +235,7 @@
     })();
   </script>
   <!--End of Tawk.to Script-->
+  <script src="js/progress.js"></script>
     <script type="text/javascript" src="js/aos.js"></script>
     <script type="text/javascript">
         AOS.init({
