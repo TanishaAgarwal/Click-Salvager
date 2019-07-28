@@ -2,6 +2,11 @@
 <html>
 
 <head>
+    <title>Click Salvager</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
@@ -10,7 +15,7 @@
     <link rel="stylesheet" href="login/css/style.css" type="text/css" media="all" />
 
 
-    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 </head>
 
@@ -49,9 +54,9 @@
                             <li><a href="join-government.html">As Government Agency</a></li>
                             <li><a href="join-corporate.html">As Corporate Partner</a></li>
                             <li>
-                                <a href="join-service-provider.html">As Non Profit Organisation</a>
+                                <a href="join-ngo.html">As Non Profit Organisation</a>
                             </li>
-                            <li><a href="join-ngo.html">As Social Partners</a></li>
+                            <li><a href="join-service-provider.html">As Social Partners</a></li>
                             <li><a href="join-nss.html">As NSS Partner</a></li>
                         </ul>
                     </li>
@@ -88,7 +93,7 @@
                     <label for="option1" class="icon-left-w3pvt"><span class="fa fa-user-circle"
                             aria-hidden="true"></span>Login</label>
                     <article>
-                        <form action="#" id="aform" method="post">
+                        <form action="https://formspree.io/tanishaaggarwal2502@gmail.com" id="aform" method="post">
                             <h3 class="legend">Login Here</h3>
                             <div class="input">
                                 <span class="fa fa-envelope-o" aria-hidden="true"></span>
@@ -99,7 +104,8 @@
                                 <input type="password" placeholder="Password" name="password" required />
                             </div>
                             <button type="submit" class="submit btn">Login</button>
-                            <a href="" class="bottom-text-w3ls"> </a>                       </form>
+                            <a href="" class="bottom-text-w3ls"> </a>
+                        </form>
                     </article>
                 </div>
                 <div id="section2" class="section-w3ls">
@@ -107,7 +113,7 @@
                     <label for="option2" class="icon-left-w3pvt"><span class="fa fa-pencil-square"
                             aria-hidden="true"></span>Register</label>
                     <article>
-                        <form action="#" id="bform" method="post">
+                        <form action="https://formspree.io/tanishaaggarwal2502@gmail.com" id="bform" method="post">
                             <h3 class="legend">Register Here</h3>
                             <div class="input">
                                 <span class="fa fa-user-o" aria-hidden="true"></span>
@@ -115,13 +121,16 @@
                             </div>
                             <div class="input">
                                 <span class="fa fa-key" aria-hidden="true"></span>
-                                <input type="password" placeholder="Password" name="password" required />
+                                <input type="password" id="password" placeholder="Password" name="password"
+                                    onkeyup='check_pass();' required />
                             </div>
                             <div class="input">
                                 <span class="fa fa-key" aria-hidden="true"></span>
-                                <input type="password" placeholder="Confirm Password" name="password" required />
+                                <input type="password" id="confirm_password" placeholder="Confirm Password"
+                                    name="confirm_password" onkeyup='check_pass();' required />
+                                <span class="col-sm-4" id='message' style="padding-left: 0%; margin-left: 0%"></span>
                             </div>
-                            <button type="submit" class="btn submit">Register</button>
+                            <button type="submit" class="btn submit" id="submit">Register</button>
                         </form>
                     </article>
                 </div>
@@ -130,7 +139,7 @@
                     <label for="option3" class="icon-left-w3pvt"><span class="fa fa-lock"
                             aria-hidden="true"></span>Forgot Password?</label>
                     <article>
-                        <form action="#" id="cform" method="post">
+                        <form action="https://formspree.io/tanishaaggarwal2502@gmail.com" id="cform" method="post">
                             <h3 class="legend last">Reset Password</h3>
                             <p class="para-style">Enter your email address below and we'll send you an email with
                                 instructions.</p>
@@ -142,7 +151,7 @@
                                 <input type="email" placeholder="Email" name="email" required />
                             </div>
                             <button type="submit" class="btn submit last-btn">Reset</button>
-                        <br>
+                            <br>
 
                         </form>
                     </article>
@@ -152,22 +161,26 @@
         </div>
 
     </div>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/5d35d71d6d80831228396e10/default';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
-    <script src="navbar.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5d35d71d6d80831228396e10/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script src="js/form.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/navbar.js"></script>
+ 
 </body>
 
 </html>
