@@ -8,7 +8,6 @@ body {
 
 .container-fluid.main {
   position: relative;
-  /* To make the navbar positions relative to this container */
   padding: 0;
 }
 
@@ -22,7 +21,6 @@ body {
 @media (max-width:991px) {
   .carousel .background {
     background-size: cover;
-    /* To make the background image looks good */
   }
 }
 
@@ -42,14 +40,12 @@ body {
 .carousel-fade .carousel-inner .item {
   opacity: 1;
   transition: opacity 0.5s;
-  /* The 0.5s describes the duration to make the opacity from 0 to 1 */
 }
 
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
 
-/* CSS Hack to trigger GPU for smooth transition */
 @media all and (transform-3d),
 (-webkit-transform-3d) {
 
@@ -76,17 +72,11 @@ body {
   }
 }
 
-/* CSS Hack to trigger GPU for smooth transition */
-
 .covertext {
   position: absolute;
-  /* To make the div to be place anywhere. It is out of the document flow */
   top: 200px;
-  /* The distance between the div with the top of document */
   left: 0px;
-  /* Make the div full width */
   right: 0px;
-  /* Make the div full width */
 }
 
 .title {
@@ -174,7 +164,6 @@ h2.has-line-center .heading-bg-text {
   color: #333;
   opacity: 0.2;
   position: absolute;
-  /* top: -20px; */
   left: 0;
   text-align: inherit;
   user-select: none;
@@ -210,7 +199,6 @@ span {
   display: block;
   width: 100px;
   height: 2px;
-  /* margin: 15px 0; */
 }
 
 .what-we-do {
@@ -235,7 +223,6 @@ span {
 
 .location {
   margin-top: 40px;
-  /* background-color: #333; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../images/hoshiarpur.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -246,24 +233,13 @@ span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* .waste-gallery img {
-  filter: grayscale(100%) blur(3px);
-  transition: transform 0.5s, filter 0.75s;
-}
 
-.waste-gallery a:hover img {
-  transform: scale(1.25);
-  filter: none;
-} */
 
 .location img {
-
-  /* position: fixed; */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: absolute; */
   color: white;
   width: 80%;
   height: 80%;
@@ -285,47 +261,17 @@ span {
 }
 
 
-/* .cover {
-  display:flex;
-  align-items:center;
-  position:relative; 
-  background: no-repeat center/cover;
-  height: 390px;
-  margin-bottom: 20px;
-}
-
-.img-text {
-    font-family: proza;
-    font-size: 40px;
-    font-weight: 600;
-} */
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../images/join_the_movement_final.jpg");
-
   background-attachment: fixed;
   transition: transform 0.5s ease-in-out;
 }
 
-/* .hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 390px;
-  /* background: linear-gradient(
-    rgba(0, 0, 0, 0.5) 0,
-    rgba(0, 0, 0, 0.3) 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  ); 
-} */
 
 .hero .container-fluid {
   z-index: 10;
 }
-
 
 .join-us .row {
   box-sizing: border-box;
@@ -347,10 +293,6 @@ span {
   text-align: center;
 }
 
-/* .join h2{
-  margin-bottom: 240px;
-} */
-
 .join-us .join-card {
   padding: 20px;
   padding-bottom: 40px;
@@ -358,7 +300,6 @@ span {
   height: 100%;
   background: rgba(10, 10, 10, 0.2);
   box-sizing: border-box;
-  /* position: absolute; */
 }
 
 .join-us .join-card:hover i {

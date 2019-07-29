@@ -42,3 +42,7 @@ height: 390px;
 .hero .container-fluid {
 z-index: 10;
 }
+
+.partners a{
+  text-decoration: none;
+}
