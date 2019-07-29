@@ -12,7 +12,7 @@
 .your-duty-points li,
 .our-duty-points li {
   margin-left: 15px;
-  text-align: center;
+  text-align: left;
   list-style: none;
   font-size: 1.3rem;
 }
