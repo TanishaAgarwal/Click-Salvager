@@ -15,6 +15,6 @@ function jsUpdateSize(){
 window.onload = jsUpdateSize; 
 
 $(window).load(function() {
-	$(".loader").delay(1700).fadeOut("slow");
-  $("#overlayer").delay(2000).fadeOut("slow");
+	$(".loader").delay(800).fadeOut("slow");
+  $("#overlayer").delay(1000).fadeOut("slow");
 })
